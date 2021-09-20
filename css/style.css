@@ -1,3 +1,7 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +17,6 @@
 main{
   width: 60%;
   margin:100px auto;
-  background-color: deepskyblue;
 }
 
 .container-prod, .container-prod2{
@@ -27,15 +30,31 @@ main{
   width: 32%;
 }
 
+h5{
+  font-weight: 750;
+}
 
 .prod-img img {
-  position: relative;
   height: 100%;
   width: 100%;
 }
 
 .prod-img{
   position: relative;
+}
+
+.prod-img:hover .img-hover {
+  display: block;
+}
+
+.img-hover {
+  display: none;
+}
+
+.prod-img .img-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .heart{
@@ -57,7 +76,7 @@ main{
 
 .discount, .sosten { 
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   padding: 3px;
   text-align: center;
 }
