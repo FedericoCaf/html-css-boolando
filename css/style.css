@@ -17,29 +17,21 @@ main{
 }
 
 .container-prod, .container-prod2{
-    /* height: 500px; */
     float: left;
-    /* width: calc(100% / 3 - 7px); */
     width: 32%;
     margin-right: 2%;
 }
 
 .container-prod3{
-  /* height: 500px; */
   float: right;
-  /* width: calc(100% / 3 - 7px); */
   width: 32%;
 }
 
-/* .product.center {
-  margin: 0 10px ;
-} */
 
 .prod-img img {
   position: relative;
   height: 100%;
   width: 100%;
-  /* object-fit: cover; */
 }
 
 .prod-img{
