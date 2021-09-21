@@ -35,21 +35,25 @@ h5{
 }
 
 .prod-img img {
-  height: 100%;
+  
   width: 100%;
+}
+
+.img-hover {
+  display: none;
 }
 
 .prod-img{
   position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .prod-img:hover .img-hover {
   display: block;
 }
 
-.img-hover {
-  display: none;
-}
+
 
 .prod-img .img-hover {
   position: absolute;
